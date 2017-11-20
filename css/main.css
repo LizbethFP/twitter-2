@@ -1,0 +1,88 @@
+/*Clases reutilizables*/
+* {
+  padding: 0;
+  font-family: 'helvetica', 'sans-serif';
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/images/backgroundpicture.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: purple;*/
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*Clases específicas*/
+h1 {
+  background-color: #6ad2f3;
+  color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.box-left {
+  display: inline-block;
+  width: 20%;
+  margin: 1% 3% 3% 8%;
+  background-color: #fff;
+  padding: 1%;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+p {
+  line-height: 20px;
+}
+
+hr:first-of-type {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.box-left p:last-child {
+  color : #88a8b5;
+  font-weight: bold;
+}
+
+.form-right {
+  display: inline-block;
+  width: 30%;
+  margin: 2% 15% 10% 5%;
+  background-color: #fff;
+  padding: 1%;
+}
+
+textarea {
+  width: 90%;
+}
+
+.hr-form {
+  background-color: #88a8b5;
+  height: 3px;
+  border: none;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.container-tweets {
+  width: 62%;
+  margin: 1% 2% 2% 8%;
+  padding: 0;
+}
+
+.container-tweets p {
+  background-color: #fff;
+  margin: 0 0 1.5% 0;
+  padding: 0.8%;
+  border-radius: 10px;
+  border: 2px solid #fd76c7;
+}
